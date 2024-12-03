@@ -171,6 +171,28 @@
             </div>
         </section>
     </div>
+    <script>
+        // Animação das caixas
+        const boxes = document.querySelectorAll('.skills-box, .hobbies-box, .courses-box, .experiencia-box');
+
+        // Função para detectar quando as caixas estão visíveis
+        function checkVisibility() {
+            const scrollPosition = window.scrollY + window.innerHeight;
+            boxes.forEach(box => {
+                if (box.offsetTop < scrollPosition) {
+                    box.classList.add('show');
+                }
+            });
+        }
+
+        // Chama a função na rolagem
+        window.addEventListener('scroll', checkVisibility);
+        
+        // Chama a função uma vez quando a página carregar
+        checkVisibility();
+    </script>
+</body>
+</html>
 </body>
 
 </html>
