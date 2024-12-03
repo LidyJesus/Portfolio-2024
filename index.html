@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container Principal -->
+    <div class="tudo">
+        <!-- Menu -->
+        <section class="menu">
+            <header>
+                <h3 class="menu-title">Meu Portfólio</h3>
+                <nav>
+                    <ul class="menu-list">
+                        <li><a href="#about">Olá, meu nome é Lidianne Oliveira e sou desenvolvedora front-end</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#academic"> Sou formada em Análise e Desenvolvimento de Sistemas e atualmente cursando pós-graduação em Segurança da Informação. 
+                                               Tenho 5 anos de experiência em administração, atuando em setores como controle financeiro e declarações orçamentárias. 
+                                               Apesar da minha formação administrativa, meu foco está no desenvolvimento front-end, onde posso aliar criatividade à tecnologia para criar interfaces incríveis.</a></li>
+                        <li><a href="#experience">Experiência</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+
+        <!-- Título -->
+        <section class="title">
+            <div class="title-div">
+                <img src="minha-foto.jpg" alt="Minha Foto" class="profile">
+                <div class="title-container">
+                    <h2>Bem-vindo ao meu Portfólio</h2>
+                    <h3>Desenvolvedora Web e Especialista em TI</h3>
+                    <ul>
+                        <li>Inovação</li>
+                        <li>Criatividade</li>
+                        <li>Dedicação</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section id="about" class="about">
+            <div class="about-container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p>Sou uma desenvolvedora apaixonada por tecnologia e design, com foco em criar experiências digitais impactantes. Meu objetivo é unir funcionalidade e estética para transformar ideias em realidade.</p>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-line">
+                <div class="skills-box">
+                    <ul>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+                <div class="skills-box">
+                    <ul>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skills-box">
+                    <ul>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skills-box">
+                    <ul>
+                        <li>React</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section id="hobbies" class="hobbies-section">
+            <h2 class="section-title">Hobbies</h2>
+            <div class="hobbies-line">
+                <div class="hobbies-box">
+                    <ul>
+                        <li>Leitura</li>
+                    </ul>
+                </div>
+                <div class="hobbies-box">
+                    <ul>
+                        <li>Jogos</li>
+                    </ul>
+                </div>
+                <div class="hobbies-box">
+                    <ul>
+                        <li>Esportes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formação Acadêmica -->
+        <section id="academic" class="academic">
+            <h2 class="section-title">Formação Acadêmica</h2>
+            <div class="courses">
+                <div class="courses-box">
+                    <ul>
+                        <li class="course-img"><img src="graduacao.jpg" alt="Graduação"></li>
+                        <li class="course-title"><h4>Análise e Desenvolvimento de Sistemas</h4></li>
+                        <li class="course-subtitle">Universidade XYZ</li>
+                    </ul>
+                </div>
+                <div class="courses-box">
+                    <ul>
+                        <li class="course-img"><img src="pos-graduacao.jpg" alt="Pós-graduação"></li>
+                        <li class="course-title"><h4>Segurança da Informação</h4></li>
+                        <li class="course-subtitle">Universidade ABC</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiência Profissional -->
+        <section id="experience" class="experience">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="experiencia-box">
+                <img src="projeto1.jpg" alt="Projeto 1">
+                <div class="info-container">
+                    <h2>Projeto de Site para Barbearia</h2>
+                    <h3>Desenvolvido com React e CSS</h3>
+                    <div class="experience-description">
+                        <p>Criação de um site moderno e responsivo para uma barbearia, com foco na experiência do usuário.</p>
+                    </div>
+                </div>
+                <span class="experience-repo">
+                    <button>Repositório</button>
+                </span>
+                <span class="experience-demo">
+                    <button>Demonstração</button>
+                </span>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contact" class="formcontato">
+            <div class="contact">
+                <div class="esquerda">
+                    <img src="contato.jpg" alt="Contato" class="contact-img">
+                </div>
+                <div class="contact-text">
+                    <h2 class="contact-title">Entre em Contato</h2>
+                    <h3 class="contact-subtext">Preencha o formulário abaixo:</h3>
+                    <form action="#" method="POST">
+                        <input type="text" name="name" placeholder="Seu Nome">
+                        <input type="email" name="email" placeholder="Seu Email">
+                        <textarea name="message" placeholder="Sua Mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <section class="footer">
+            <div class="rodape">
+                <p>&copy; 2024 Meu Portfólio - Desenvolvido por Lidianne Oliveira</p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
